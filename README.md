@@ -46,7 +46,7 @@ We also include gender_submission.csv, a set of predictions that assume all and 
 *Child* = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
-File Structure
+## File Structure
 
 README.md	- Details of the challenge and solution
 Titanic Challenge.ipynb	- Final Submitted Challenge Code
@@ -54,3 +54,7 @@ gender_submission.csv	- A set of predictions that assume all and only female pas
 submission.csv	- Predicted Data
 test.csv	- CSV File which contain the test data that need to be used for testing the trained Model
 train.csv - CSV File which contain the data that needs to be trained
+
+## How to solve the Challenge
+- The data present in the train.csv needs to be trained by using the apropriate algorithm and then data.csv needs to be tested to predict the values.
+- The Aim is to predict the survivors in the Titanic Incident based on various properties associated with the passengers.
